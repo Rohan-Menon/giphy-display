@@ -27,7 +27,7 @@ function getGiphyResponse(){
     var topicName = $(this).text();
 
 
-    var topicURL = "http://api.giphy.com/v1/gifs/search?q="+topicName+"&api_key=suFibuOCECQfQLKd80Bsc61RZcjsgGVj&limit=100"
+    var topicURL = "https://api.giphy.com/v1/gifs/search?q="+topicName+"&api_key=suFibuOCECQfQLKd80Bsc61RZcjsgGVj&limit=100"
 
 
     $.ajax({
